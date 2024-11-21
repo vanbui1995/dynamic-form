@@ -2,6 +2,9 @@
 # Dynamic Forms Example with Vite, React, React Hook Form, and Zod
 
 This repository demonstrates how to build dynamic forms powered by API data using modern tools like **Vite**, **React**, **React Hook Form**, and **Zod**. The example is designed to complement the blog post: [How we build Dynamic Forms in Admina Migration](https://www.notion.so/mfi/How-we-build-Dynamic-Forms-in-Admina-Migration-1439b9c183cb805c83b2e47d68192e09).
+![image](https://github.com/user-attachments/assets/444b9969-99d4-42ed-ae9e-cc769694c215)
+
+Live Demo: https://dynamic-form-steven.netlify.app/
 
 ## Features
 
