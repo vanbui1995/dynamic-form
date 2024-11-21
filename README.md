@@ -11,7 +11,7 @@ Live Demo: https://dynamic-form-steven.netlify.app/
 ## Features
 
 - **Dynamic Form Rendering**: Fields are generated dynamically based on API responses includes (input types, input options, validation, initial values...)
-- **Custom API Board: Simulate update fields and field options in your backend database and affect immediately to the current form
+- **Custom API Board**: Simulate update fields and field options in your backend database and affect immediately to the current form
 - **Validation with Zod**: Leverage schema-based validation for better type safety and error handling
 - **React Hook Form**: Manage form state efficiently and integrate with validation seamlessly.
 
