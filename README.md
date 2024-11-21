@@ -20,8 +20,8 @@ This repository demonstrates how to build dynamic forms powered by API data usin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dynamic-forms-example.git
-   cd dynamic-forms-example
+   git clone https://github.com/vanbui1995/dynamic-form.git
+   cd dynamic-form
    ```
 
 2. Install dependencies:
