@@ -29,5 +29,5 @@ export function transformToInitialValues(fields: Field[]) {
     }
 
     return acc;
-  }, {} as Record<string, any>);
+  }, {} as Record<string, unknown>);
 }

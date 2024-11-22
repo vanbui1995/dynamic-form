@@ -6,7 +6,7 @@ export function transformToFormSchema(fields: Field[]) {
     fields.reduce((acc, field) => {
       let fieldSchema: ZodType | undefined;
 
-      // 1. Specify base type for dynamic field
+      // 1. Specify main type for field
       switch (field.type) {
         case "checkbox-group":
           fieldSchema = z.array(z.string());
@@ -37,7 +37,7 @@ export function transformToFormSchema(fields: Field[]) {
         }
       }
 
-      // 2. Dynamic validation from field.constraints
+      // 2. Dynamic validations
 
       // Min & max length
       if (field?.constraints?.minLength) {
@@ -75,7 +75,7 @@ export function transformToFormSchema(fields: Field[]) {
           field.constraints.regex.message
         );
       }
-
+      // 3. Set optional for non-required fields
       if (!field?.constraints?.required) {
         fieldSchema = fieldSchema.optional().or(z.literal(""));
       }
