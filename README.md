@@ -1,7 +1,7 @@
 
 # Dynamic Forms Example Remote API, React Hook Form, and Zod
 
-This repository demonstrates how to build dynamic forms powered by API data using modern tools like **Vite**, **React**, **React Hook Form**, and **Zod**. The example is designed to complement the blog post: [How we build Dynamic Forms in Admina Migration](https://www.notion.so/mfi/How-we-build-Dynamic-Forms-in-Admina-Migration-1439b9c183cb805c83b2e47d68192e09).
+This repository demonstrates how to build dynamic forms powered by API data using modern tools like **Vite**, **React**, **React Hook Form**, and **Zod**. The example is designed to complement the blog post: [How we build Dynamic Forms in Admina Migration](https://mfi.engineering/how-we-build-dynamic-form-in-admina-migration-0576d97a036b).
 
 ![2024-11-21_11-36-21-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/46f667b9-e5b1-4e1c-aa43-3bfa8b7839b1)
 
